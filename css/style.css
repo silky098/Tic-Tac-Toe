@@ -1,0 +1,33 @@
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 56px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: bold;
+	line-height: 48px;
+  text-align: center;
+}
+.box {
+	width: 466px;
+  border: 1px solid black;
+	margin-left: 31%;
+}
+.row1, .row2, .row3 {
+  width: 100%;
+  border: 1px solid black;
+  margin: 0 0 -4px 0;
+}
+#a1, #a2, #a3, #b1, #b2, #b3, #c1, #c2, #c3 {
+  display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: #EEE;
+  border: 1px solid #DDD;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 100px;
+}
+button#reset {
+ 	  margin-left: 49%;
+}
