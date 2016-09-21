@@ -6,21 +6,23 @@ h1 {
 	font-weight: bold;
 	line-height: 48px;
   text-align: center;
+	color: #444;
 }
 .box {
-	width: 466px;
-  border: 1px solid black;
-	margin-left: 31%;
+	width: 317px;
+	border: 11px solid #999;
+	border-radius: 10px;
+	margin-left: 36%;
 }
 .row1, .row2, .row3 {
   width: 100%;
   border: 1px solid black;
-  margin: 0 0 -4px 0;
+  margin: 0 0 0 0;
 }
 #a1, #a2, #a3, #b1, #b2, #b3, #c1, #c2, #c3 {
   display: inline-block;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	background: #EEE;
   border: 1px solid #DDD;
   font-family: 'Ubuntu', sans-serif;
@@ -29,5 +31,21 @@ h1 {
   font-size: 100px;
 }
 button#reset {
- 	  margin-left: 49%;
+	margin-left: 46%;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #e8f9fb;
+  border: 2px solid #999;
+  border-radius: 5px;
+}
+h2 {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	left: 17%;
+	font-size: 200px;
+	color: #05a8bb;
+	font-family:'Ubuntu', sans-serif;
 }
