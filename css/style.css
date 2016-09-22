@@ -40,12 +40,29 @@ button#reset {
   border: 2px solid #999;
   border-radius: 5px;
 }
-h2 {
+#winnerO, #winnerX {
 	visibility: hidden;
 	position: absolute;
-	top: 50px;
-	left: 17%;
+	top: 105px;
+	left: 20%;
 	font-size: 200px;
 	color: #05a8bb;
 	font-family:'Ubuntu', sans-serif;
+	background-color: #e0eaeb;
+	border: 7px solid #999;
+	border-radius: 6px;
+	padding: 50px 70px 70px 70px;
+}
+#winnerZ {
+	visibility: hidden;
+	position: absolute;
+	top: 105px;
+	left: 7%;
+	font-size: 200px;
+	color: #05a8bb;
+	font-family:'Ubuntu', sans-serif;
+	background-color: #e0eaeb;
+	border: 7px solid #999;
+	border-radius: 6px;
+	padding: 50px 70px 70px 70px;
 }

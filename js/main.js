@@ -50,14 +50,14 @@ var gameBoard = function() {
   $.each(wins, function( index, value ) {
     var match = false;
     if( value.toString() === xWin.toString() ){
-    alert('x wins!', index);
-     //$('h1', index).css("visibility","visible"); //new code FIXME
+    //alert('x wins!', index);
+     $('div#winnerX').css('visibility','visible');
       return;
     } else if ( value.toString() === oWin.toString() ){
-      alert('o wins!', index);
+      $('div#winnerO').css('visibility','visible');
       return;
     } else if ((clicks > 8)&&(( value.toString() !== xWin.toString() )&&( value.toString() !== oWin.toString() ))){
-      alert("cat's game");
+      $('div#winnerZ').css('visibility','visible');
     }
     //console.log(index, value);
   });
@@ -66,8 +66,11 @@ var gameBoard = function() {
 //reset button
 $('#reset').click(function() {
   $('.peice').remove();
+  $('div#winnerX').css('visibility','hidden');
+  $('div#winnerO').css('visibility','hidden');
+  $('div#winnerZ').css('visibility','hidden');
   clicks = 0;
-  $('td').one('click', turns);
+  $('td').on('click', turns);
   });
 //close Doc ready function
 });
