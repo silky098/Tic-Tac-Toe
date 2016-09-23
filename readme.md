@@ -1,63 +1,41 @@
-# Heading
-## heading 2
+[**Tic Tac Toe**](https://silky098.github.io/) <br>
+release date: 22/09/2016, version: 1.00<br>
+by Shaila Man <br>
+[Live Version](https://silky098.github.io/) <br>
+[Git Repo](https://github.com/silky098/silky098.github.io)
 
-### heading 3
+![](http://www.ccwh.com.au/images/tic-tac-toe.png)
 
-We can have **bold** text and *Italic* text.
-Undescores __also__ _work_.
+***
+**Project Objectives**
 
-[Link to GA](http://generalassemb.ly)
+The project was to create a game application called Tic Tac Toe.
 
-http://yahoo.com (will make a link looking item into a link)
+The game is compatible with the latest versions of:
 
-need to link to the repo and the live site, so the git hub stuff and the live version.
+* Firefox
+* chrome
+* Safari
+* IE
 
-## listings
-* items 1
-* items 2
-*items 3
+The game begins with a game board and an X tile is displayed when a player clicks in any of the 9 squares. The player is then switched to O, and therefore when the next square is clicked, an O tile will be displayed, and so on with alternate turns until there is a win or all nine tiles are filled with no winners.
+A tile cannot be used twice in a single game.
+A win is when either X or O have three tiles in a row either vertically, horizontally or diagonally. A banner will be displayed to show a win.
+When all tiles are filled but there's is no winner, it's 'cat's game', and a banner will be displayed to show this.
 
-### ordered list
-1. happy
-2. sad
-3. crazy
-4. meloncholgy
+The reset button resets all the values so the game can be replayed.
 
-![Bill Murray](http://fillmurray.com/300/400) (images)
+**General Usage Notes**
 
-As a wise man once said:
-ALL YOUR BASE ARE BELONG TO US
+Browser compatibility was tested with [Browser Stack](https://www.browserstack.com)
 
-Javascript has many quirks such as `NaN` (backscripts)
+**Game Limitations**
 
-Here is a function:
-(you can add the language for it to colour it acording to the language it is written in)
-```javascript
-var foo = function(){
-
-};
-```
-
-## Tasks
-- [ ] Kill all humans
-- [ ] Go To margaritas
-- [x] Kill all UX Students
-
-## Tables
-Brothers | Instruments
----------|------------
-Groucho  | Guitar
-Harpo    | Harp
-Chico    | Piano
+- The game currently always begins with an X, however the rules state that although the first game should always begin with player X, subsequent games should begin with the winner of the last game. Unfortunately this is not currently possible and may be remedied in a future release.
 
 
+**Additional Reading**
 
-~~Strike through text~~
-
-emoji ...we need to figure it out ourselves.
-
-Hacker's-eye introduction traditionally included in the top-level directory of a Unix source distribution, containing a pointer to more detailed documentation, credits, miscellaneous revision history, notes, etc.
-
-In the Mac and PC worlds, software is not usually distributed in source form, and the README is more likely to contain user-oriented material like last-minute documentation changes, error workarounds, and restrictions. When asked, hackers invariably relate the README convention to the famous scene in Lewis Carroll's Alice's Adventures In Wonderland in which Alice confronts magic munchies labeled “Eat Me” and “Drink Me”.
-
-The file may be named README, or READ.ME, or rarely ReadMe or readme.txt or some other variant. The all-upper-case spellings, however, are universal among Unix programmers. By ancient tradition, real source files have all-lowercase names and all-uppercase is reserved for metadata, comments, and grafitti. This is functional; because 'A' sorts before 'a' in ASCII, the README will appear in directory listings before any source file.
+Some interesting facts and history https://en.wikipedia.org/wiki/Tic-tac-toe
+Origin of the name Tic Tac Toe http://www.ehow.com/about_4682851_origin-name-tic-tac-toe.html
+Called Nought's and Crosses in British CommonWealth http://tictactoetricks.blogspot.com.au/2012/07/tic-tac-toe-histor.html
