@@ -7,7 +7,7 @@ by Shaila Man <br>
 ![](http://www.ccwh.com.au/images/tic-tac-toe.png)
 
 ***
-**Project Objectives**
+**Project**
 
 The project was to create a game application called Tic Tac Toe.
 
