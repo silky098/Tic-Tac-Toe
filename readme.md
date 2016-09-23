@@ -36,6 +36,8 @@ Browser compatibility was tested with [Browser Stack](https://www.browserstack.c
 
 **Additional Reading**
 
-Some interesting facts and history https://en.wikipedia.org/wiki/Tic-tac-toe
-Origin of the name Tic Tac Toe http://www.ehow.com/about_4682851_origin-name-tic-tac-toe.html
-Called Nought's and Crosses in British CommonWealth http://tictactoetricks.blogspot.com.au/2012/07/tic-tac-toe-histor.html
+Some interesting facts and history<br> https://en.wikipedia.org/wiki/Tic-tac-toe
+
+Origin of the name Tic Tac Toe<br> http://www.ehow.com/about_4682851_origin-name-tic-tac-toe.html
+
+Called Nought's and Crosses in British CommonWealth<br> http://tictactoetricks.blogspot.com.au/2012/07/tic-tac-toe-histor.html
