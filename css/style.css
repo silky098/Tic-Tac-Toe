@@ -48,7 +48,7 @@ button#reset {
 	font-size: 200px;
 	color: #05a8bb;
 	font-family:'Ubuntu', sans-serif;
-	background-color: #e0eaeb;
+	background-color: rgba(6, 6, 6, 0.84);
 	border: 7px solid #999;
 	border-radius: 6px;
 	padding: 50px 70px 70px 70px;
@@ -61,7 +61,7 @@ button#reset {
 	font-size: 200px;
 	color: #05a8bb;
 	font-family:'Ubuntu', sans-serif;
-	background-color: #e0eaeb;
+	background-color: rgba(6, 6, 6, 0.84);
 	border: 7px solid #999;
 	border-radius: 6px;
 	padding: 50px 70px 70px 70px;
